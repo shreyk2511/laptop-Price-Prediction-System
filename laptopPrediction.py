@@ -21,9 +21,6 @@ ram = st.selectbox('RAM(in GB)',[2,4,6,8,12,16,24,32,64])
 weight = st.number_input('Weight of the Laptop')
 
 
-# screen size
-screen_size = st.number_input('Screen Size')
-
 
 #cpu
 cpu = st.selectbox('CPU',df['Cpu brand'].unique())
